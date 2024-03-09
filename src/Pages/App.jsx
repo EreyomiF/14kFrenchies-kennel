@@ -7,9 +7,7 @@ const App = () => {
 
   return (
 <>
-<Navbar
-className="mb-2"
- />
+<Navbar/>
  <HeroSection />
  <Gallery />
 

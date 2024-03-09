@@ -12,51 +12,49 @@ const Gallery = () => {
       <div className="grid gap-4">
         <div>
           <img
-            className="h-auto  rounded-lg"
-            src={Myimg1}  
+            className="w-full h-auto rounded-lg"
+            src={Myimg1}
             alt="Description 1"
           />
         </div>
         <div>
           <img
-            className="h-auto  rounded-lg"
-            src={Myimg2}  
+            className="w-full h-auto rounded-lg"
+            src={Myimg2}
             alt="Description 2"
           />
         </div>
         <div>
           <img
-            className="h-auto  rounded-lg"
-            src={Myimg3}  
+            className="w-full h-auto rounded-lg"
+            src={Myimg3}
             alt="Description 3"
           />
         </div>
       </div>
       <div className="grid gap-4">
-        
         <div>
           <img
-            className="h-auto  rounded-lg"
-            src={Myimg4}  
+            className="w-full h-auto rounded-lg"
+            src={Myimg4}
             alt="Description 4"
           />
         </div>
         <div>
           <img
-            className="h-auto  rounded-lg"
-            src={Myimg5}  
+            className="w-full h-auto rounded-lg"
+            src={Myimg5}
             alt="Description 5"
           />
         </div>
         <div>
           <img
-            className="h-auto rounded-lg"
-            src={Myimg6}  
+            className="w-full h-auto rounded-lg"
+            src={Myimg6}
             alt="Description 6"
           />
         </div>
       </div>
-      
     </div>
   );
 };

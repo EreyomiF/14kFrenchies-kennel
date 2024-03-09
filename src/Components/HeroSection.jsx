@@ -1,18 +1,14 @@
 import React from 'react';
+import videoSource from '../videos/video.mp4';
 
 const HeroSection = () => {
   return (
     <section className="relative bg-black">
       {/* Video element */}
-      <video
-  className="absolute inset-0 w-full h-full object-cover"
-  autoPlay
-  loop
-  muted
->
-  <source src="../images/video.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
+      <video className="absolute inset-0 w-full h-full object-cover" autoPlay loop muted>
+        <source src={videoSource} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
 
       {/* Overlay for the video */}
       <div className="absolute inset-0 bg-black/75 sm:bg-transparent sm:from-black/95 sm:to-black/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>

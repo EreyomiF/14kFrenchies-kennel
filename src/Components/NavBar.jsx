@@ -9,7 +9,6 @@ const Navbar = () => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
 
   return (
-    <header className="bg-black p-4">
     <nav className="bg-black border-red-200 dark:bg-red-900">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
@@ -142,7 +141,7 @@ const Navbar = () => {
   id="dropdown"
   className={`z-10 ${isDropdownOpen ? '' : 'hidden'} absolute right-0 top-10 bg-white-500 divide-y divide-white-500 rounded-lg shadow w-44 dark:bg-white-500`}
 >
-  <ul className="py-2 text-lg text-black-900 dark:text-black-200">
+  <ul className="py-2 text-lg text-black-900 dark:text-black-200 bg-white rounded">
           <li>
             <a
               href="#"
@@ -189,7 +188,7 @@ const Navbar = () => {
     </div>  
       </div>
     </nav>
-    </header>
+    
   );
 };
 
