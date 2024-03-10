@@ -9,13 +9,15 @@ const Navbar = () => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
 
   return (
-    <nav className="bg-black">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
-        <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src={Logoo} alt="Example"          
-             style={{ width: '50px', height: '50px', borderRadius: '50%' }}
-              />
-<span class="self-center text-xs sm:text-4xl font-semibold whitespace-nowrap text-red-500 logofont">Micro Bullies Kennel</span>
+    <nav className="bg-black ">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse flex-shrink-0">
+          <img
+            src={Logoo}
+            alt="Example"
+            style={{ width: '50px', height: '50px', borderRadius: '50%' }}
+          />
+          <span className="self-center text-xs sm:text-4xl font-semibold whitespace-nowrap text-red-500 logofont">Micro Bullies Kennel</span>
         </a>
         <div className="flex items-center md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse relative">
         <button
