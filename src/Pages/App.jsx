@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from '../Components/NavBar';
-import Gallery from '../Components/GallerySection';
 import HeroSection from '../Components/HeroSection';
+import Footer from '../Components/FooterSection';
 
 const App = () => {
 
@@ -9,8 +9,10 @@ const App = () => {
 <>
 <Navbar/>
  <HeroSection />
- <Gallery />
 
+
+
+<Footer />
 
 </>
   );
