@@ -9,7 +9,7 @@ const Navbar = () => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
 
   return (
-    <nav className="bg-black border-red-200 dark:bg-red-900">
+    <nav className="bg-black">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src={Logoo} alt="Example"          
