@@ -17,7 +17,7 @@ const Navbar = () => {
             alt="Example"
             style={{ width: '50px', height: '50px', borderRadius: '50%' }}
           />
-<span className="self-center text-lg sm:text-4xl lg:text-4xl font-semibold text-gray-200 logofont">
+<span className="self-center text-lg sm:text-3xl lg:text-4xl font-semibold text-gray-200 logofont">
   Micro Bullies Kennel
 </span>
         </a>
@@ -25,7 +25,7 @@ const Navbar = () => {
         <button
   type="button"
   data-dropdown-toggle="language-dropdown-menu"
-  className="inline-flex items-center font-medium justify-center px-4 py-2 sm:ml-auto lg:mr-4 text-sm text-gray-400 border-0 rounded-lg cursor-pointer bg-transparent dark:text-red-500 dark:hover:text-white"
+  className="inline-flex items-center font-medium justify-center px-4 py-2 sm:ml-auto lg:mr-4 text-sm text-gray-400 border-0 rounded-lg cursor-pointer bg-transparent dark:text-gray-200 dark:hover:text-white"
   onClick={() => setLanguageDropdownOpen(!isLanguageDropdownOpen)}
 >
   <svg
