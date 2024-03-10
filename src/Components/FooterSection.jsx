@@ -36,6 +36,7 @@ const Footer = () => {
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
             {/* ... Social media icons ... */}
+            
           </div>
         </div>
       </div>

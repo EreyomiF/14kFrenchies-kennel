@@ -39,12 +39,9 @@ code {
 }
 
 
-.max-w-screen-xl {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  /* Add other styles as needed */
-}
-.text-xs {
-  font-size: 2vw; /* Adjust the value as needed */
+
+@media (max-width: 768px) {
+  .navbar a {
+    font-size: 14px;
+  }
 }
