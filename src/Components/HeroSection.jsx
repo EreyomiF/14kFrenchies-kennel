@@ -6,7 +6,7 @@ const HeroSection = () => {
     <section className="relative bg-black">
       {/* Image background */}
       <div
-        className="absolute inset-0 w-full h-full bg-cover bg-center filter"
+        className="absolute inset-0 w-full h-full  bg-center filter"
         style={{ backgroundImage: `url(${heroImage})` }}
       />
 

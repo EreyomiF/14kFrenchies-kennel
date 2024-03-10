@@ -17,7 +17,7 @@ const Navbar = () => {
             alt="Example"
             style={{ width: '50px', height: '50px', borderRadius: '50%' }}
           />
-<span className="self-center text-lg sm:text-3xl lg:text-4xl font-semibold text-gray-200 logofont">
+<span className="self-center text-base sm:text-lg lg:text-xl xl:text-2xl font-semibold text-yellow-500 logofont">
   Micro Bullies Kennel
 </span>
         </a>
@@ -25,7 +25,7 @@ const Navbar = () => {
         <button
   type="button"
   data-dropdown-toggle="language-dropdown-menu"
-  className="inline-flex items-center font-medium justify-center px-4 py-2 sm:ml-auto lg:mr-4 text-sm text-gray-400 border-0 rounded-lg cursor-pointer bg-transparent dark:text-gray-200 dark:hover:text-white"
+  className="inline-flex items-center font-medium justify-center px-4 py-2 sm:ml-auto lg:mr-4 text-sm text-yellow-500 border-0 rounded-lg cursor-pointer bg-transparent dark:text-yellow-500 dark:hover:text-white"
   onClick={() => setLanguageDropdownOpen(!isLanguageDropdownOpen)}
 >
   <svg
@@ -133,13 +133,13 @@ const Navbar = () => {
       <button
   id="dropdownDefaultButton"
   data-dropdown-toggle="dropdown"
-  className="text-red-800 sm:mr-4 bg-transparent hover:bg-transparent font-medium rounded-lg text-sm px-3 py-1.5 inline-flex items-center dark:bg-transparent dark:hover:bg-transparent dark:focus:ring-transparent"
+  className="text-red-800 sm:mr-4 bg-transparent hover:bg-transparent font-medium rounded-lg text-sm sm:text-base px-3 py-1.5 inline-flex items-center dark:bg-transparent dark:hover:bg-transparent dark:focus:ring-transparent"
   type="button"
   aria-label="Dropdown button"
   onClick={() => setDropdownOpen(!isDropdownOpen)}
 >
   <svg
-    className="w-4 h-6 text-gray-400 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-700"
+    className="w-4 h-6 sm:w-6 sm:h-8 text-gray-400 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-700"
     aria-hidden="true"
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
@@ -155,11 +155,12 @@ const Navbar = () => {
   </svg>
 </button>
       {/* Dropdown menu */}
-      <div
+{/* Dropdown menu */}
+<div
   id="dropdown"
-  className={`z-10 ${isDropdownOpen ? '' : 'hidden'} absolute right-0 top-10 bg-white-500 divide-y divide-white-500 rounded-lg shadow w-44 dark:bg-white-500 `}
+  className={`z-10 ${isDropdownOpen ? '' : 'hidden'} absolute right-0 top-10 bg-gray-700 divide-y divide-gray-800 rounded-lg shadow w-44 dark:bg-gray-700 `}
 >
-  <ul className="py-2 text-lg text-black-900 dark:text-black-200 bg-white rounded">
+  <ul className="py-2 text-lg text-yellow-500 dark:text-yellow-500 bg-gray-900 rounded">
     <li>
       <a
         href="#"
