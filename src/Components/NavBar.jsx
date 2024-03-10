@@ -49,11 +49,11 @@ const Navbar = () => {
           </button>
           {/* Dropdown */}
           <div
-          className={`absolute top-full right-0 z-50 ${isLanguageDropdownOpen ? '' : 'hidden'} text-base bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700`}
-          id="language-dropdown-menu"
-          style={{ minWidth: '150px' }} // Set a minimum width to prevent text from breaking
-           >
-            <ul className="py-2 font-medium" role="none">
+  className={`absolute top-full right-0 z-50 ${isLanguageDropdownOpen ? '' : 'hidden'} text-base bg-black bg-opacity-75 divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700`}
+  id="language-dropdown-menu"
+  style={{ minWidth: '150px' }} // Set a minimum width to prevent text from breaking
+>
+  <ul className="py-2 font-medium" role="none">
               {/* Dropdown items */}
               <li>
                 <a
@@ -158,9 +158,9 @@ const Navbar = () => {
 {/* Dropdown menu */}
 <div
   id="dropdown"
-  className={`z-10 ${isDropdownOpen ? '' : 'hidden'} absolute right-0 top-10 bg-gray-700 divide-y divide-gray-800 rounded-lg shadow w-44 dark:bg-gray-700 `}
+  className={`z-10 ${isDropdownOpen ? '' : 'hidden'} absolute right-0 top-10 bg-black bg-opacity-75 divide-y divide-gray-800 rounded-lg shadow w-44 dark:bg-gray-700 `}
 >
-  <ul className="py-2 text-lg text-yellow-500 dark:text-yellow-500 bg-gray-900 rounded">
+  <ul className="py-2 text-lg text-gray-500 dark:text-gray-500 bg-black bg-opacity-75 rounded">
     <li>
       <a
         href="#"
