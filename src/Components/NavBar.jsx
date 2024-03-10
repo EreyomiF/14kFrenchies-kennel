@@ -158,9 +158,9 @@ const Navbar = () => {
 {/* Dropdown menu */}
 <div
   id="dropdown"
-  className={`z-10 ${isDropdownOpen ? '' : 'hidden'} absolute right-0 top-10 bg-black bg-opacity-75 divide-y divide-gray-800 rounded-lg shadow w-44 dark:bg-gray-700 `}
+  className={`z-10 ${isDropdownOpen ? '' : 'hidden'} absolute right-0 top-10 bg-gray bg-opacity-75 divide-y divide-gray-700 rounded-lg shadow w-44 dark:bg-gray-700 `}
 >
-  <ul className="py-2 text-lg text-gray-500 dark:text-gray-500 bg-black bg-opacity-75 rounded">
+  <ul className="py-2 text-lg text-gray-300 dark:text-gray-300 bg-gray bg-opacity-75 rounded">
     <li>
       <a
         href="#"

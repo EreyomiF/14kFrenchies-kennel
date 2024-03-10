@@ -5,13 +5,17 @@ const HeroSection = () => {
   return (
     <section className="relative bg-black">
       {/* Image background */}
-      <div
-        className="absolute inset-0 w-full h-full  bg-center filter"
-        style={{ backgroundImage: `url(${heroImage})` }}
-      />
+      <div className="absolute inset-0 w-full h-full bg-cover bg-center filter  "  />
+      <div class="relative overflow-hidden bg-cover bg-no-repeat" style="
+        background-position: 50%;
+      "
+      style={{ backgroundImage: `url(${heroImage})`      
+         height: 500px;
+}}>
+    <div
+      class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.75)] bg-fixed">
 
       {/* Glass effect overlay */}
-      <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.75)] bg-fixed" />
 
       {/* Content */}
       <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
