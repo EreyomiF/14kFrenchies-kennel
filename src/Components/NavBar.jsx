@@ -133,13 +133,13 @@ const Navbar = () => {
       <button
   id="dropdownDefaultButton"
   data-dropdown-toggle="dropdown"
-  className="text-red-800 sm:mr-4 bg-transparent hover:bg-transparent font-medium rounded-lg text-sm sm:text-base px-3 py-1.5 inline-flex items-center dark:bg-transparent dark:hover:bg-transparent dark:focus:ring-transparent"
+  className="text-red-800 sm:mr-4 bg-transparent hover:bg-transparent font-medium rounded-lg text-sm sm:text-base px-3 py-1.5 sm:px-4 sm:py-2 inline-flex items-center dark:bg-transparent dark:hover:bg-transparent dark:focus:ring-transparent"
   type="button"
   aria-label="Dropdown button"
   onClick={() => setDropdownOpen(!isDropdownOpen)}
 >
   <svg
-    className="w-4 h-6 sm:w-6 sm:h-8 text-gray-400 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-700"
+    className="w-4 h-6 sm:w-6 sm:h-8 text-yellow-500 hover:text-yellow-700 dark:text-yellow-500 dark:hover:text-yellow-700"
     aria-hidden="true"
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
