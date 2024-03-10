@@ -9,7 +9,7 @@ const Navbar = () => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
 
   return (
-    <nav className="bg-black">
+<nav className="bg-black" style={{ backgroundColor: 'rgba(0, 0, 0, 0.75)' }}>
 <div className="flex items-center justify-between mx-auto p-4 w-full">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse flex-shrink-0">
           <img
@@ -139,7 +139,7 @@ const Navbar = () => {
   onClick={() => setDropdownOpen(!isDropdownOpen)}
 >
   <svg
-    className="w-4 h-6 sm:w-6 sm:h-8 text-yellow-500 hover:text-yellow-700 dark:text-yellow-500 dark:hover:text-yellow-700"
+    className="w-4 h-6 sm:w-6 sm:h-8 text-yellow-500 hover:text-yellow-500 dark:text-yellow-500 dark:hover:text-yellow-500"
     aria-hidden="true"
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
