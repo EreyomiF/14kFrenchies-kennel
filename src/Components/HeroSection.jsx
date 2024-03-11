@@ -6,7 +6,7 @@ const HeroSection = () => {
     <section className="relative bg-black">
       {/* Image background */}
       <div
-        className="absolute inset-0 w-full h-full bg-no-repeat bg-center"
+        className="absolute inset-0 w-full h-full bg-no-repeat bg-center bg-cover"
         style={{ backgroundImage: `url(${heroImage})` }}
       ></div>
 
@@ -17,7 +17,7 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
-        <div className="max-w-xl text-center sm:text-left text-white">
+        <div className="max-w-xl text-center sm:text-left text-white w-full"> {/* Added 'w-full' to make it full width */}
           <h1 className="text-3xl font-extrabold sm:text-5xl lg:text-6xl">
             Welcome to <br />
             <span className="text-yellow-500 block text-xl sm:text-2xl lg:text-3xl">

@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Navbar from '../Components/NavBar';
 import HeroSection from '../Components/HeroSection';
+import Footer from '../Components/FooterSection';
+import AboutUs from './AboutUs';
 
 const App = () => {
 
@@ -11,8 +13,9 @@ const App = () => {
 
  <Navbar/>
  <HeroSection />
+ <AboutUs />
  </div>
-
+<Footer />
 </div>
   );
 };

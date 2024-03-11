@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
-import visionImg from "../../assets/img-mission.png";
-import missionImg from "../../assets/img-vision.png";
+import Logo from "../images/ImgLogo.PNG";
+import Black from "../images/Black.PNG"
 
 const AboutUs = () => {
   return (
@@ -11,28 +11,25 @@ const AboutUs = () => {
       <div className="md:bg-mission w-full md:py-16 bg-no-repeat bg-75% bg-left   flex items-center md:justify-end justify-center mb-11 ">
         <About
           heading={"Our Vision"}
-          img={visionImg}
+          img={Logo}
           alt={"two hands shaking each other"}
+          className="rounded "
         >
-          Our vision is to create a world where feedback is valued and acted
-          upon, fostering continuos improvement and mutual understanding between
-          users and businesses. Together, we can shape a feedback-driven culture
-          that drives positive change.
-        </About>
+At 14k Bullies Kennel, we envision a world where the companionship between humans and dogs transcends ordinary bounds. Our vision is to be a beacon of excellence in breeding, creating a legacy where each dog we nurture becomes an ambassador of love, joy, and unparalleled companionship. We strive to contribute to a society where the bond between individuals and their canine companions enriches lives, fosters happiness, and brings a touch of extraordinary warmth to every home.
+
+</About>
       </div>
       <div className="md:bg-vision w-full md:py-16 bg-no-repeat bg-75% bg-right flex items-center md:justify-start justify-center">
         <About
           heading={"Our Mission"}
-          img={missionImg}
+          img={Black}
           alt={
             "two ladies and a gentlemen discussing round the table with two laptops on the table"
           }
         >
-          Our mission is to simplify the feedback process and empower both users
-          and business owners to share their thoughts and experience easily.
-          Together, we can drive positive change and enhance the relationship
-          between consumers and businesses.
-        </About>
+Our mission at 14k Bullies Kennel is to breed and raise French Bulldogs and Bullies of exceptional quality, health, and temperament. We are committed to the ethical and responsible breeding of these beloved breeds, ensuring that each dog embodies the highest standards in conformation, behavior, and overall well-being. Through meticulous care, socialization, and dedication to the breed's integrity, we aim to provide families with not just pets but lifelong companions who bring joy, love, and a unique charm into their lives.
+
+</About>
       </div>
     </section>
   );

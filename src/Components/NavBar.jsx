@@ -17,7 +17,7 @@ const Navbar = () => {
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse flex-shrink-0">
           <img
             src={Logoo}
-            alt="Example"
+            alt="my logo"
             style={{ width: '50px', height: '50px', borderRadius: '50%' }}
           />
 <span className="self-center text-base sm:text-lg lg:text-xl xl:text-2xl font-semibold text-yellow-500 logofont">
