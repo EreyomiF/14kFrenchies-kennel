@@ -10,7 +10,7 @@ const productData = [
           AKC Registered
         </>
       ),      link: 'tel:+1 256-385-2131',
-      imageNames: ['kingcholo-1.jpeg', 'kingcholo-2.jpeg'],
+      imageNames: ['king-1.jpeg', 'king-2.jpeg'],
     },
     {
       id: 2,
@@ -65,7 +65,7 @@ const productData = [
       },
       {
         id: 6,
-        title: 'DULCE',
+        title: 'Dolce',
         description: (
             <>
               FRENCH BULL DOG <br />
