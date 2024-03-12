@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import Navbar from '../Components/NavBar';
 import HeroSection from '../Components/HeroSection';
 import Footer from '../Components/FooterSection';
-import AboutUs from './AboutUs';
+import ProductsShow from '../Components/ProductsShow';
+import AboutUs from '../Components/AboutUs';
 
 const App = () => {
 
@@ -14,6 +15,7 @@ const App = () => {
  <Navbar/>
  <HeroSection />
  <AboutUs />
+ <ProductsShow />
  </div>
 <Footer />
 </div>
