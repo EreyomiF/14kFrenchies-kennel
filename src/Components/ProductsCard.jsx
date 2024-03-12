@@ -32,12 +32,12 @@ const ImageCarousel = ({ imageNames }) => {
               index === activeSlide ? 'block' : 'hidden'
             } duration-700 ease-in-out`}
           >
-<img
-  src={`/static/images/dogs/${imageName}`}
-  className="absolute inset-0 w-full h-full object-cover opacity-100 transition-opacity"
-  alt={`Slide ${index + 1}`}
-  onLoad={() => console.log(`Image ${index + 1} loaded`)}
-/>
+            <img
+              src={`/${imageName}`}
+              className="absolute inset-0 w-full h-full object-cover opacity-100 transition-opacity"
+              alt={`Slide ${index + 1}`}
+              onLoad={() => console.log(`Image ${index + 1} loaded`)}
+            />
           </div>
         ))}
       </div>
