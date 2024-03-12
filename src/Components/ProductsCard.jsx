@@ -24,19 +24,19 @@ const ImageCarousel = ({ imageNames }) => {
       </button>
 
       {/* Carousel wrapper */}
-      <div className="relative h-80 overflow-hidden rounded-lg md:h-80">
-        {imageNames.map((imageName, index) => (
-          <div
-            key={index}
-            className={`${
-              index === activeSlide ? 'block' : 'hidden'
-            } duration-700 ease-in-out`}
-          >
-            <img
-              src={`/images/dogs/${imageName}`}
-              className="absolute block w-full h-full object-cover"
-              alt={`Slide ${index + 1}`}
-            />
+      {imageNames.map((imageName, index) => (
+  <div
+    key={index}
+    className={`${
+      index === activeSlide ? 'opacity-100' : 'opacity-0'
+    } duration-700 ease-in-out`}
+  >
+<img
+  src={`/images/dogs/${imageName}`}
+  className="absolute inset-0 w-full h-full object-cover opacity-100 transition-opacity"
+  alt={`Slide ${index + 1}`}
+  onLoad={() => console.log(`Image ${index + 1} loaded`)}
+/>
           </div>
         ))}
       </div>
