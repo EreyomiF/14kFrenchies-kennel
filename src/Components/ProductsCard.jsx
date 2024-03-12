@@ -33,7 +33,7 @@ const ImageCarousel = ({ imageNames }) => {
             } duration-700 ease-in-out`}
           >
             <img
-              src={`/${imageName}`}
+            src={`/Images/${imageName}`} 
               className="absolute inset-0 w-full h-full object-cover opacity-100 transition-opacity"
               alt={`Slide ${index + 1}`}
               onLoad={() => console.log(`Image ${index + 1} loaded`)}
