@@ -7,7 +7,8 @@ const productData = [
          FLUFFY FRENCH BULL DOG <br />
           Born: 8 months old <br />
           Gender: Male <br />
-          AKC Registered
+          Personality : He is clam, <br /> intelligent and very playful<br />
+          <br />   AKC Registered
         </>
       ),      link: 'tel:+1 256-385-2131',
       imageNames: ['king-1.jpeg', 'king-2.jpeg'],
@@ -20,7 +21,8 @@ const productData = [
           FRENCH BULL DOG <br />
           Born: 06/08/2023 <br />
           Gender: Female <br />
-          UKC Registered
+          Personality : Shes very <br /> playful  and Obedient  <br />
+          <br />  UKC Registered
         </>
       ),      link: 'tel:+1 256-385-2131',
       imageNames: ['millie-1.jpeg', 'millie-2.jpeg'],
@@ -33,7 +35,8 @@ const productData = [
               AMERICAN PITBULL/TERRIER <br />
               Born: 12/24/2021 <br />
               Gender: Female <br />
-              UKC Registered
+              Personality : Chocolate bully , <br /> very intelligent and obedient  <br />
+              <br />   UKC Registered
             </>
           ),        link: 'tel:+1 256-385-2131',
         imageNames: ['coco-1.jpeg', 'coco-2.jpeg'],
@@ -45,7 +48,9 @@ const productData = [
             <>
               FRENCH  <br />
               Gender: Female <br />
-              AKC Registered
+              Personality : Shes very <br />  playful 
+              and intelligent <br />
+              <br />    AKC Registered
             </>
           ),        link: 'tel:+1 256-385-2131',
         imageNames: ['kathy-1.jpeg', 'kathy-2.jpeg'],
@@ -58,7 +63,8 @@ const productData = [
               FRENCH BULL DOG <br />
               Born: 12/15/2021 <br />
               Gender: Female <br />
-              AKC Registered
+              Personality : Shes very <br /> tempramental  quiet and playful  <br />
+              <br />   AKC Registered
             </>
           ),        link: 'tel:+1 256-385-2131',
         imageNames: ['gabana-1.jpeg', 'gabana-2.jpeg'],
@@ -71,7 +77,8 @@ const productData = [
               FRENCH BULL DOG <br />
               Born: 12/15/2021 <br />
               Gender: Female <br />
-              AKC Registered
+              Personality : Shes is very <br /> affectionate and playful <br />
+            <br />  AKC Registered
             </>
           ),
                 link: 'tel:+1 256-385-2131',
@@ -99,16 +106,24 @@ const productData = [
               AMERICAN BULL DOG <br />
               Born: '9weeks old' <br />
               Gender: Female <br />
-              USBR Registered
+              Personalities : Shes calm and <br /> very obedient <br />
+              <br />  USBR Registered
             </>
-          ),        link: 'tel:+1 256-385-2131',
+          ),       
+           link: 'tel:+1 256-385-2131',
         imageNames: ['Chakira-1.jpeg', 'chakira-2.jpeg'],
       },
       {
         id: 9,
         title: 'BIG MONEY',
-        description: '(9 weeks old)',
-        link: 'tel:+1 256-385-2131',
+        description: (
+          <>
+            Born: '9weeks old' <br />
+            Gender: Female <br />
+            Personality : Very calm <br /> and intelligent 
+          </>
+          ),
+       link: 'tel:+1 256-385-2131',
         imageNames: ['gerald-1.jpeg', 'gerald-2.jpeg'],
       },
       {
