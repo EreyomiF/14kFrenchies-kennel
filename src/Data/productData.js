@@ -106,7 +106,7 @@ const productData = [
               AMERICAN BULL DOG <br />
               Born: '9weeks old' <br />
               Gender: Female <br />
-              Personalities : Shes calm and <br /> very obedient <br />
+              Personality : Shes calm and <br /> very obedient <br />
               <br />  USBR Registered
             </>
           ),       
