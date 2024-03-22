@@ -38,7 +38,7 @@ function ContactForm() {
           </div>
           <div className="mb-5">
             <label htmlFor="base-input" className="block mb-2 text-sm font-medium text-white dark:text-white">Your name</label>
-            <input type="text" id="base-input" value={name} onChange={(e) => setName(e.target.value)} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg  block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white " />
+            <input type="text" id="base-input" value={name} onChange={(e) => setName(e.target.value)} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg  block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white " placeholder="Your name" required/>
           </div>
           <div className='mb-4'>
             <label htmlFor="message" className="block mb-2 text-sm font-medium text-white dark:text-white">Your message</label>
