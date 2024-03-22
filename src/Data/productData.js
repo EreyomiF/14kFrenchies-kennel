@@ -85,20 +85,6 @@ const productData = [
         imageNames: ['dolce-1.jpeg', 'dolce-2.jpeg'],
       },
       {
-        id: 7,
-        title: 'GERALD',
-        description: (
-            <>
-              FRENCH BULL DOG <br />
-              Born: '9 weeks old' <br />
-              Gender: Female <br />
-              AKC Registered
-            </>
-          ),
-        link: 'tel:+1 256-385-2131',
-        imageNames: ['gerald-1.jpeg', 'gerald-2.jpeg'],
-      },
-      {
         id: 8,
         title: 'ROSIE',
         description: (
@@ -111,7 +97,7 @@ const productData = [
             </>
           ),       
            link: 'tel:+1 256-385-2131',
-        imageNames: ['Chakira-1.jpeg', 'chakira-2.jpeg'],
+        imageNames: ['Rosie.jpeg', 'rosie-2.jpeg'],
       },
       {
         id: 9,
@@ -120,26 +106,44 @@ const productData = [
           <>
             Born: '9weeks old' <br />
             Gender: Female <br />
-            Personality : Very calm <br /> and intelligent 
+            Personality : Very calm <br /> and intelligent <br />
+            <br />  USBR Registered
           </>
           ),
        link: 'tel:+1 256-385-2131',
-        imageNames: ['gerald-1.jpeg', 'gerald-2.jpeg'],
+        imageNames: ['bigmoney.jpeg', 'bigmoney-2.jpeg'],
       },
       {
         id: 10,
+        title: 'RUSTY',
+        description: (
+          <>
+            Born: '11weeks old' <br />
+            Gender: Male <br />
+            Personality :   Quiet and <br />  very intelligent <br />
+            Availability: For Sale contact <br /> for more info <br />
+            <br />  USBR Registered
+          </>
+          ),
+        link: 'tel:+1 256-385-2131',
+        imageNames: ['rusty.jpeg', 'rusty-2.jpeg'],
+      },
+
+      {
+        id: 11,
         title: 'DIABLO',
         description: 'FATHER',
         link: 'tel:+1 256-385-2131',
         imageNames: ['diablo.jpeg', 'diablo.jpeg'],
       },
       {
-        id: 11,
+        id: 12,
         title: 'GIAGI',
         description: 'GRAND FATHER',
         link: 'tel:+1 256-385-2131',
         imageNames: ['giagi.jpeg', 'giagi.jpeg'],
       },
+
 
     // Add more products as needed
   ];

@@ -7,7 +7,7 @@ const ProductsShow = () => {
 <div className="flex items-center justify-center min-h-screen bg-stone-800">
 <div className="mx-auto my-8 px-4 text-center w-full">
       <h2 className="text-3xl text-yellow-500 font-bold mb-2">Explore Our Canine Companions</h2>
-      <p className="text-lg text-gray-400 mb-4">Step into the heart of our kennel and get to know the delightful members of our four-legged family. We're thrilled to introduce you to our charming dogs, each possessing a unique character and lovable qualities.</p>
+      <p className="text-lg text-gray-400 mb-10">Step into the heart of our kennel and get to know the delightful members of our four-legged family. We're thrilled to introduce you to our charming dogs, each possessing a unique character and lovable qualities.</p>
 
       {/* Your card grid */}
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
