@@ -34,17 +34,17 @@ function ContactForm() {
         <form onSubmit={handleSubmit} className="mt-4"> {/* Added mt-4 for spacing between title/subtitle and form */}
           <div className="mb-5">
             <label htmlFor="email" className="block mb-2 text-sm font-medium text-white dark:text-white">Your email</label>
-            <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} className="bg-gray-50 border border-gray-300 text-black text-sm rounded-lg  block w-full p-2.5  dark:placeholder-gray-400 dark:text-white " placeholder="name@gmail.com" required />
+            <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} className="bg-gray-50 border border-gray-300 text-black text-sm rounded-lg  block w-full p-2.5  " placeholder="name@gmail.com" required />
           </div>
           <div className="mb-5">
             <label htmlFor="base-input" className="block mb-2 text-sm font-medium text-white dark:text-white">Your name</label>
-            <input type="text" id="base-input" value={name} onChange={(e) => setName(e.target.value)} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg  block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white " placeholder="Your name" required/>
+            <input type="text" id="base-input" value={name} onChange={(e) => setName(e.target.value)} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg  block w-full p-2.5 " placeholder="Your name" required/>
           </div>
           <div className='mb-4'>
             <label htmlFor="message" className="block mb-2 text-sm font-medium text-white dark:text-white">Your message</label>
-            <textarea id="message" rows="4" value={message} onChange={(e) => setMessage(e.target.value)} className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white " placeholder="Leave a Message..."></textarea>
+            <textarea id="message" rows="4" value={message} onChange={(e) => setMessage(e.target.value)} className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300  " placeholder="Leave a Message..."></textarea>
           </div>
-          <button type="submit" className="text-white bg-yellow-500 hover:bg-yellow-800 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm w-40 sm:w-auto px-5 py-2.5 text-center">Submit</button>
+          <button type="submit" className="text-white bg-yellow-500 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm w-40 sm:w-auto px-5 py-2.5 text-center">Submit</button>
         </form>
       </div>
     </div>
