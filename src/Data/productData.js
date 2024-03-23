@@ -18,7 +18,7 @@ const productData = [
       title: 'MILLIE',
       description: (
         <>
-          FRENCH BULL DOG <br />
+          AMERICAN PITBULL TERRIER <br />
           Born: 06/08/2023 <br />
           Gender: Female <br />
           Personality : Shes very <br /> playful  and Obedient  <br />
