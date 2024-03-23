@@ -10,7 +10,7 @@ function ContactForm() {
         event.preventDefault(); // Prevent form submission
 
         // Your WhatsApp number in international format without '+' or '00', e.g., '1234567890'
-        const yourWhatsAppNumber = '2348133989645';
+        const yourWhatsAppNumber = '12563852131';
 
         if (!message || !name || !userPhone) {
             alert('Please fill in all the fields.');
